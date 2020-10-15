@@ -16,5 +16,5 @@ server.get('/orphanages', pages.orphanages)
 server.get('/create-orphanage', pages.createOrphanage)
 
 server.listen(5500, () => {
-    console.log ('Server started')
+    console.log ('server is running')
 })
